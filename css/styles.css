@@ -364,3 +364,89 @@ header {
     display: block;
     clear:both;
 }
+
+/* Contact Page */
+/* Setting padding top and bottom 5rem to contact section */
+.contact{
+    padding:5rem 0rem;
+    background-color: #f7f7f7;
+}
+/* Floating company-address and contact-form */
+.form-wrapper::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.form-wrapper .company-address{
+    height: 750px;
+    background:#fff;
+    float:left;
+    width: 49%;
+    padding: 1rem;
+}
+
+.form-wrapper .company-address i{
+    display: inline-block;
+    margin-right:1rem
+}
+.form-wrapper .company-address h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.form-wrapper img{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+.form-wrapper .address-group{
+    margin-bottom: 2rem;
+}
+
+/* contact-from styling */
+.form-wrapper .contact-form{
+    height: 750px;
+    background-color: #fff;
+    float: right;
+    width: 49%;
+    padding:1rem;
+}
+
+.contact-form h2::after{
+    content: "";
+    display: block;
+    border: 3px solid #e63946;
+    width:100%;
+}
+.contact-form label{
+    display:block;
+    font-size: 2rem;
+}
+
+.contact-form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+.contact-form textarea{
+    width:100%;
+    height: 300px;
+    padding: 1rem;
+}
+.contact-form .form-group{
+    margin-bottom: 1.2rem;
+}
+
+.contact-form .btn-submit{
+    display: block;
+    margin:0 auto;
+    text-transform: uppercase;
+    background-color: #e63946;
+    color:#fff;
+    outline: none;
+    font-size: 1.4rem;
+    padding:0.5rem 3rem;
+    border: none;
+    cursor: pointer;
+}
